@@ -1,7 +1,7 @@
 defmodule Money.Mixfile do
   use Mix.Project
 
-  @version "1.2.1"
+  @version "1.2.2"
   @github_url "https://github.com/liuggio/money"
 
   def project do
@@ -52,6 +52,8 @@ defmodule Money.Mixfile do
      maintainers: ["Giulio De Donato", "Andrew Timberlake"],
      contributors: ["Giulio De Donato", "Andrew Timberlake"],
      licenses: ["MIT"],
-     links: %{"GitHub" => @github_url}]
+     links: %{"GitHub" => @github_url},
+     organization: "cabify"
+    ]
   end
 end
